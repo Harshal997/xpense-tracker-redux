@@ -29,8 +29,8 @@ const Expense = () => {
         <div className="expense-form-input">
           <label htmlFor="expense-name">Expense name: </label>
           <input required type="text" id="expense-name" value={expenseName} onChange={(e) => setExpenseName(e.target.value)} />
-          <label htmlFor="expense-category">Select category: </label>
-          <select value={category} onChange={(e) => setCategory(e.target.value)} required name="" id="">
+          <label htmlFor="category-select">Select category: </label>
+          <select value={category} onChange={(e) => setCategory(e.target.value)} required name="" id="category-select">
             {categories.map((category) => (
               <option value={category}>
                 {category.slice(0, 1).toUpperCase()}
