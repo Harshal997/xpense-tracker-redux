@@ -41,7 +41,7 @@ const Expense = () => {
           <label htmlFor="expense-amount">Select amount: </label>
           <input required type="number" name="" id="expense-amount" value={amount} onChange={(e) => setAmount(Number(e.target.value))} />
         </div>
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
