@@ -1,0 +1,21 @@
+.landing-page-container {
+    height: 100vh;
+}
+h6 {
+    margin: 5px;
+}
+
+input {
+    width: 20vw;
+}
+
+.category-container {
+    display: inline-flex;
+    column-gap: 10%;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+
+.category {
+    border: 1px sollid black;
+}
